@@ -20,4 +20,4 @@ for adresss in wallets:
         if int(response.json()['data']['totalReward']) != 0:
             print(f"{response.json()['data']['address']} rewards - {response.json()['data']['totalReward']}")
 
-
+print("Всё, конец!")
